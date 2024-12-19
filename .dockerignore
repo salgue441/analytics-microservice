@@ -1,0 +1,14 @@
+# git associated
+.git
+.gitignore
+
+# Docker config files
+docker-compose.yml
+Dockerfile
+
+# Markdown files
+README.md
+*.md
+
+# Project data
+data/

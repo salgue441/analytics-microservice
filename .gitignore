@@ -1,0 +1,49 @@
+# .gitignore
+# Binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+
+# Go specific
+*.o
+*.a
+*.log
+vendor/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Project specific
+tmp/
+data/
+*.pem
+*.key
+*.cert
+config.yaml
+!config.example.yaml
+
+# Docker volumes
+volumes/
+clickhouse_data/
+timescaledb_data/
+zookeeper_data/
+grafana_data/
